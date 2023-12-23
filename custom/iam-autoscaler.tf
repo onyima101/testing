@@ -1,3 +1,4 @@
+/*
 data "aws_iam_policy_document" "eks_cluster_autoscaler_assume_role_policy" {
   statement {
     actions = ["sts:AssumeRoleWithWebIdentity"]
@@ -50,3 +51,4 @@ resource "aws_iam_role_policy_attachment" "eks_cluster_autoscaler_attach" {
 output "eks_cluster_autoscaler_arn" {
   value = aws_iam_role.eks_cluster_autoscaler.arn
 }
+*/

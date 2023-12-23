@@ -1,3 +1,4 @@
+/*
 resource "aws_iam_role" "nodes" {
   name = "eks-node-group-nodes"
 
@@ -87,3 +88,4 @@ resource "aws_eks_node_group" "private-nodes" {
 #     }
 #   }
 # }
+*/

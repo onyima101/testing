@@ -37,7 +37,7 @@ resource "aws_security_group" "web" {
     description = "Allow incoming HTTP connections."
 
     ingress = [
-        for port in [-1, 22, 80, 443, 8080, 9000, 3000] : {
+        for port in [22, 80, 443, 8080, 9000, 3000] : {
             description      = "inbound rules"
             from_port        = port
             to_port          = port
